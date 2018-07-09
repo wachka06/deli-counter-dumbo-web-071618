@@ -18,12 +18,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  puts "Welcome, #{katz_deli.last}. You are number #{katz_deli.last} in line."
-  katz_deli.last
-  katz_deli.each_with_index do |name, index|
-      puts "Welcome, #{name}. You are number #{index + 1} in line."
-    end
-  
+  puts "Welcome, #{katz_deli.last}. You are number #{katz_deli.index(katz_deli.last)} in line."
 end
 
 def now_serving(katz_deli)
