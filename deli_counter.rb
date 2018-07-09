@@ -10,6 +10,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       phrase += "#{index}. #{name} "
     end
-  end
     puts phrase
+  end
+
 end
