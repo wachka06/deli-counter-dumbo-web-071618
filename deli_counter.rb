@@ -18,7 +18,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  puts "Welcome, #{katz_deli.last}. You are number #{katz_deli.index(katz_deli.last)} in line."
+  puts "Welcome, #{katz_deli.last}. You are number #{katz_deli.index(katz_deli.last) + 1} in line."
 end
 
 def now_serving(katz_deli)
